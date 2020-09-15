@@ -9,7 +9,8 @@ class Pessoa:
 
 if __name__ == '__main__':
     eduardo = Pessoa(nome = 'Eduardo')
-    luciano = Pessoa(eduardo, nome ='luciano')
+    pedro = Pessoa(nome = 'Pedro')
+    luciano = Pessoa(eduardo, pedro, nome ='luciano')
     print(Pessoa.cumprimentar(luciano))
     print(id(luciano))
     print(luciano.cumprimentar())
